@@ -69,13 +69,11 @@ input.C {
   color: crimson;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 400px) {
   .wrapper {
-    width: 500px;
-    height: 100vh;
+    width: 315px;
   }
   input[type="button"] {
-    width: 90px;
-    margin-top: 50px;
+    width: 68px;
   }
 }
