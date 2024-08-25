@@ -56,8 +56,11 @@ input[type="button"] {
   cursor: pointer;
 }
 input[type="button"]:hover {
-  background-color: #a8919123;
-  border: 0.5px solid;
+  /* background-color: #a8919123; */
+  border: 0.5px solid #aaa;
+}
+input[type="button"]:active {
+  transform: scale(0.9);
 }
 input.color {
   color: green;

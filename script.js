@@ -7,6 +7,7 @@ const btnEL = document.querySelectorAll(".btn");
 btnEL.forEach((val) => {
   val.addEventListener("click", () => {
     inputText.value += val.value;
+    
   });
 });
 
