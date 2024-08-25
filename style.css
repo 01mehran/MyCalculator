@@ -71,9 +71,9 @@ input.C {
 
 @media (max-width: 420px) {
   .wrapper {
-    width: 220px;
+    width: 260px;
   }
   input[type="button"] {
-    width: 40px;
+    width: 52px;
   }
 }
