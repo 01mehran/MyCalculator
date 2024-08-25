@@ -68,3 +68,12 @@ input.color {
 input.C {
   color: crimson;
 }
+
+@media (max-width: 420px) {
+  .wrapper {
+    width: 280px;
+  }
+  input[type="button"] {
+    width: 50px;
+  }
+}
