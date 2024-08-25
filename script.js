@@ -3,7 +3,7 @@ const clearBtn = document.getElementById("C");
 const delBtn = document.getElementById("DEL");
 const equalBtn = document.getElementById("equal");
 const btnEL = document.querySelectorAll(".btn");
-
+/* hiiiiiiiiiiiiiiiiiii*/
 btnEL.forEach((val) => {
   val.addEventListener("click", () => {
     inputText.value += val.value;
